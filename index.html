@@ -5,29 +5,245 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header class="header">
         <section class="header-block">
             <div class="menu">
                 <nav class="menu-content">
+                    <div class="menu-content-contacs">
+                        <a href="tel:+12345678900" data-action="phone" class="phone-link">
+                            <span class="phone-link__content">+1 (234) 567 89 00</span>
+                        </a>
+                        <a href="mailto:buildcompany@email.com" data-action="email" class="email-link">
+                            <span class="email-link__content">buildcompany@email.com</span>
+                        </a>
+                    </div>
+                    <hr class="header-line">
+                    <div class="logo-and-menu-block">
                     <div class="menu-logo">
-                        <a href="#">
+                        <a href="#" class="logo-img">
                             <img src="img/logo.svg" alt="logo">
                         </a>
                     </div>
-                </nav>
-
+                    <div class="header-block__navbar">
+                        <a href="#home" class="menu-link">Home</a>
+                        <a href="#about" class="menu-link">About us</a>
+                        <a href="#services" class="menu-link">Services</a>
+                        <a href="#projects" class="menu-link">Projects</a>
+                        <a href="#contacts" class="menu-link">Contacts</a>
+                    </div>
+                </div>
+                    </nav>
+                    <div class="header__banner">
+                        <h1 class="header__banner-title">Engineering, Construction, and Project Management</h1>
+                        <a href="#services"><button class="services__button">Our Services</button></a>
+                    </div>
             </div>
-
         </section>
-
     </header>
     <main class="main">
-
+        <section class="about_us">
+            <div class="about_us-content">
+            <div class="about_us-texts">
+                <h2 class="about_us-title"><span>+ </span>ABOUT US</h2>
+                <h3 class="about_us-subtitle">We Are More Than <span>20 Years</span> on the Market</h3>
+                <p class="about_us-text">We're proud of our reliability and reputation.</p>
+                <p class="about_us-describtion">We are a leading construction company with 30+ years of experience in the industry. We are dedicated to providing the highest quality construction services to our customers meeting their special needs on schedule and within their budgets. Client satisfaction is always our first priority.</p>
+                <a href=""><button class="about_us-button">More About Us</button></a>
+            </div>
+            <img src="img/imgbin_house.png" alt="excavator" class="about_us-img">
+        </div>
+            <div class="about_us-blocks">
+                <div class="about_us-item item-years">
+                    <img src="img/icon-years.svg" alt="20 years on the market" class="about_us-item-icon">
+                    <p class="about_us-item-number">30+</p>
+                    <div class="about_us-blocks-divider"><hr></div>
+                        <p class="about_us-item-text">years on the market</p>
+                </div>
+                <div class="about_us-item item-workers">
+                    <img src="img/icon-worker.svg" alt="amount of workers" class="about_us-item-icon">
+                    <p class="about_us-item-number">50</p>
+                    <div class="about_us-blocks-divider"><hr></div>
+                    <p class="about_us-item-text">qualified workers</p>
+                </div>
+                <div class="about_us-item item-projects">
+                    <img src="img/icon-house.svg" alt="amount of Projects" class="about_us-item-icon">
+                    <p class="about_us-item-number">100+</p>
+                    <div class="about_us-blocks-divider"><hr></div>
+                    <p class="about_us-item-text">successful projects</p>
+                </div>
+            </div>
+        </section>
+        <section class="sectors" id="sectors">
+            <div class="sectors__img-container">
+                <img src="img/sectors.jpg" alt="house" class="sectors-img">
+            </div>
+            <div class="sectors__text-container">
+                <h2 class="sectors-title"><span>+</span>SECTORS</h2>
+                <h3 class="sectors-subtitle">Building, Renovation
+                    & Improvements</h3>
+                <p class="sectors_p">We are proud to be the leading company with more than 30 years of experience. We provide a wide range of high-quality services to the majority of industries while meeting high industry standards.</p>
+                <ul class="sectors-items">
+                    <li>Commercial</li>
+                    <li>Residential</li>
+                    <li>Recreational</li>
+                    <li>Healthcare</li>
+                    <li>Civic & Cultural</li>
+                    <li>Institutional</li>
+                    <li>Heavy Industrial</li>
+                </ul>
+                <p class="sectors-describtion">We've started as a small, family-owned construction company in Alabama and now are one of the biggest and most reliable contractors throughout the USA. If you're looking for an experienced company to implement your project of any complexity, you can count on us.</p>
+                <a href="#contacts"><button class="sectors__to-contacts-button">Request a Quote</button></a>
+                <a href="#projects"><button class="sectors__to-projects-button">Projects</button></a>
+            </div>
+        </section>
+        <section class="latest-works">
+            <div class="latest-works__text">
+                <h2 class="latest-works__title"><span>+</span>LATEST WORKS</h2>
+                <h3 class="latest-works__subtitle">Projects We Are Proud of</h3>
+                <p class="latest-works__describtion">Check out our latest projects to see our style and expertize.</p>
+            </div>
+            <div class="latest-works-cards">
+                <div class="works-cards__renovation">
+                    <img src="img/renovation.jpg" alt="renovation">
+                    <div class="renovation-texts">
+                        <h4 class="renovation-texts-title"><span>#</span>RENOVATION</h4>
+                        <p class="renovation-texts-subtitle">Timeless Gray & White Living room</p>
+                        <p class="renovation-texts-date">September, 20, 2022</p>
+                        <a href="#projects"><button class="latest-works-to-projects__button">More about projects +</button></a>
+                    </div>
+                </div>
+                <div class="works-cards__building">
+                    <img src="img/building.jpg" alt="building">
+                    <div class="building-texts">
+                        <h4 class="building-texts-title"><span>#</span>BUILDING</h4>
+                        <p class="building-texts-subtitle">Gorgeous House Building</p>
+                        <p class="building-texts-date">September, 20, 2022</p>
+                        <a href="#projects"><button class="latest-works-to-projects__button">More about projects +</button></a>
+                    </div>
+                </div>
+                <div class="works-cards__design">
+                    <img src="img/bathroom.jpg" alt="bathroom design">
+                    <div class="design-texts">
+                        <h4 class="design-texts-title"><span>#</span>INTERIOR DESIGN</h4>
+                        <p class="design-texts-subtitle">Modern White Bathroom</p>
+                        <p class="design-texts-date">September, 20, 2022</p>
+                        <a href="#projects"><button class="latest-works-to-projects__button">More about projects +</button></a>
+                    </div>
+                </div>
+                <div class="works-cards__renovation2">
+                    <img src="img/kitchen.jpg" alt="renovation">
+                    <div class="renovation2-texts">
+                        <h4 class="renovation2-texts-title"><span>#</span>RENOVATION</h4>
+                        <p class="renovation2-texts-subtitle">Beautiful Classic kitchen</p>
+                        <p class="renovation2-texts-date">September, 20, 2022</p>
+                        <a href="#projects"><button class="latest-works-to-projects__button">More about projects +</button></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#projects"><button class="latest-works__all">All Projects</button></a>
+        </section>
+        <section class="stay-in-touch">
+            <div class="in-touch-container">
+                <h2 class="in-touch__title"><span>+</span>STAY IN TOUCH</h2>
+                <h3 class="in-touch__subtitle">Contact Us to Specify Your Project Details Right Now</h3>
+                <a href="#contact-form"><button class="in-touch__button">Request a Quote</button></a>
+            </div>
+        </section>
+        <section class="what-we-do">
+            <div class="what-we-do__texts">
+                <h2 class="what-we-do__title"><span>+</span>WHAT WE DO</h2>
+                <h3 class="what-we-do__subtitle">High-Performance Services</h3>
+                <p class="what-we-do__describtion">We offer all kinds of professional services connected with construction and design.</p>
+            </div>
+            <div class="what-we-do__call">
+                <a href="tel:+12345678900" data-action="phone" class="phone-link-icon">
+                    <span class="phone-link__content"><img src="img/telephone.png" alt="telephone" class="phone-icon"></span>
+                </a>
+                <a href="tel:+12345678900" data-action="phone">
+                    <span class="phone-link__content">+1 (234) 567 89 00</span>
+                </a>
+                <p class="call_text">Call us to discuss your project.</p>
+            </div>
+            <!-- to add slider -->
+        </section>
+        <section class="work-video">
+            <h2 class="work-video__title"><span>+</span>OUR VIDEO</h2>
+            <h3 class="work-video__subtitle">See Our Work in Action</h3>
+            <a href="https://www.youtube.com/watch?v=nP4PRM7SRZE" class="work-video__link">
+                <img src="img/play.png" alt="play icon" class="play-icon">
+            </a>
+        </section>
+        <section class="vacancies" id="vacancies">
+            <div class="vacancies-container">
+                <h2 class="vacancies-title"><span>+</span>CAREERS</h2>
+                <h3 class="vacancies-subtitle">Want to Join Our Team?</h3>
+                <p class="vacancies-describtion">We are always in search of new talents — creative and motivated individuals eager to become part of our team.
+                    We offer a diverse range of career opportunities along with a pack of exceptional benefits.</p>
+                <a href="#contacts"><button class="vacancies-to-contacts">Open Vacancies +</button></a>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contacts-texts">
+                <h2 class="contacts-title"><span>+</span>CONTACTS</h2>
+                <h3 class="contacts-subtitle">Let’s Build Your Future Together</h3>
+                <p class="contacts-describtion">Feel free to contact us for any business, media, or personal inquiries</p>
+            </div>
+            <div class="contact-form-container">
+                <!-- <div class="contact-form">  
+                    <form id="contact-form" action="" method="post">
+                      <h2 class="contact-form-title"><span>+</span>CONTACT US</h2>
+                      <h3 class="contact-form-subtitle">Get in Touch</h3>
+                      <p class="contact-form-describtion">Please complete the form if you have a project in mind, questions to our team of construction experts, or any other inquiries.</p>
+                      <fieldset>
+                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                      </fieldset>
+                      <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send a Request</button>
+                      </fieldset>
+                    </form>
+                    </div> -->
+            </div>
+        </section>
     </main>
     <footer class="footer"> 
-
+        <section class="footer-content">
+            <div class="col1">
+                <a href="#">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <p class="footer-describtion">A leading construction company with 30+ years of experience in the industry. We are dedicated to providing the highest quality construction services.</p>
+            </div>
+            <div class="col2">
+                <p class="col2-title">About</p>
+                <hr>
+                <a href="#about" class="menu-link">About us</a>
+                <a href="#services" class="menu-link">Services</a>
+                <a href="#projects" class="menu-link">Projects</a>
+                <a href="#contacts" class="menu-link">Contacts</a>
+            </div>
+            <div class="col3">
+                <p class = "col3-title">Navigation</p>
+                <hr>
+                <a href="#sectors" class="nav-link">Sectors</a>
+                <a href="#vacancies" class="nav-link">Vacancies</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact-form" class="nav-link">Contacts Us</a>
+            </div>
+            <div class="footer-rights">
+                <hr>
+                <p class="rights-created">© Created by</p>
+                <p class="rights-all">All rights Reserved</p>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

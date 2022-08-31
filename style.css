@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+img {
+    width: 30%
+}
+
+.about_us-item-icon {
+    width: 10%
+}
+
+.phone-icon {
+    width: 5%;
+}
+
+.play-icon {
+    width: 5%;
+}
+
+.header-block {
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+    url(img/header-background.jpg);;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;    
+    height: 1000px;
+}
+.menu {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.menu-content-contacs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    
+}
+
+.phone-link, .email-link {
+    color: rgb(245, 245, 245);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.header-line {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header-block__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+.header-block__navbar a {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+
+.logo-and-menu-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__banner-title {
+    margin: auto;
+    margin-top: 23vh;
+    font-size: 56px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    width: 70%;
+    margin-bottom: ;
+}
+
+.header__banner {
+    text-align: center;
+}
+
+.services__button {
+    margin-top: 5vh;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(193, 18, 31);
+    border: none;
+    border-radius: 3px;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.services__button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.about_us {
+    background-color: rgb(237, 237, 233);
+}
+
+.about_us-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 20vh;
+    
+}
+
+.about_us-texts {
+    width: 50%;
+}
+
+.about_us-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(115, 115, 115);
+    font-family: sans-serif;
+    margin-top: 15vh;
+
+}
+.about_us-title span {
+    color: rgb(193, 18, 31);
+    font-weight: 900;
+}
+
+.about_us-subtitle {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: sans-serif;
+    line-height: 55px;
+    color: rgb(34, 34, 34);
+
+}
+
+.about_us-subtitle span {
+    color: rgb(193, 18, 31);
+}
+
+.about_us-text {
+    font-size: 18px;
+    font-weight: 550;
+    font-family: sans-serif;
+    color: rgb(74, 74, 74);
+    line-height: 27px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.about_us-describtion {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(115, 115, 115);
+    line-height: 25.5px;
+}
+
+.about_us-button {
+    width: 170px;
+    height: 60px;
+    border: none;
+    background-color: rgb(193, 18, 31);
+    color: rgb(255, 255, 255);
+    font-size: 19;
+    font-family: sans-serif;
+    font-weight: 900;
+    line-height: 25px;
+    border-radius: 3px;
+    margin-top: 3vh;
+}
+
+.about_us-button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.about_us-img {
+    width: 500px;
+    height: 100%;
+    margin-top: 22vh;
+    margin-left: 3vw;
+}
+
+.about_us-blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.about_us-item {
+    width: 33.3%;
+    height: 27vh;
+    text-align: center;
+    
+}
+
+.item-years {
+    background-color: rgb(255, 255, 255);
+}
+
+.item-projects {
+    background-color: rgb(167, 162, 169);
+}
+
+.item-workers {
+    background-color: rgb(193, 18, 31);
+}
+
+.about_us-item-icon {
+    width: 55px;
+    height: 55px;
+    margin-top: 4vh;
+}
+
+.about_us-item-number {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 55px;
+    color: rgb(193, 18, 31);
+    font-family: sans-serif;
+    margin-top: 2vh;
+}
+
+.about_us-blocks-divider {
+    font-size: 17px;
+    height: 3px;
+    font-weight: 400;
+    width: 35px;
+    text-align: center;
+}
